@@ -1,0 +1,32 @@
+section#what-we-do {
+    background-color: #f8f9fa;
+    padding-top: 100px;
+    .card {
+        border: 1px solid black;
+    }
+
+ h4 {
+color: var(tamsi spalva);
+    font-weight: normal;
+    text-align: center;
+ }   
+
+ h2 {
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    margin: o auto;
+    margin-bottom: 70px;
+ }
+ .cards {
+    display: flex;
+    justify-content: space-between;
+
+    .cards {
+        width: 40px;
+        border: 1px solid black;
+
+    }
+
+ }
+}

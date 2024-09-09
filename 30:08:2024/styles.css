@@ -1,0 +1,36 @@
+/* dokumento pozicionavimas ir parastes */
+#document{
+     width: 500px;
+    height: 750px;
+    border: 1px solid black;
+    padding: 40px 20px;
+}
+
+   .document-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+#document section{
+margin-bottom: 50px;
+
+}
+
+/* pavadinimai datos ir panasus dalykai */
+
+.text-center{
+    text-align: center;
+
+}
+#document h1, #document h2, #document h3, #document h4, #document h5, #document h6 {
+    margin: 5px 0px; 
+}
+
+#document h2{
+    font-size: 18px;
+}
+   /* pirkejo pardavejo info */
+
+#document section.buyer-seller-info

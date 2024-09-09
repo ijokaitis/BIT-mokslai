@@ -1,0 +1,131 @@
+body {
+
+    margin: 0;
+
+}
+ 
+a {
+
+    text-decoration: none;
+
+}
+ 
+nav {
+
+    background-color: #222222;
+
+}
+ 
+.container {
+
+    margin: 0 auto;
+
+    max-width: 1200px;
+
+    height: 20px;
+
+ 
+}
+
+nav .container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 5px 0;
+
+}
+ 
+nav a {
+
+    color: white;
+
+    font-size: 14px;
+
+}
+
+nav .left {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+/* seach button */
+
+nav .right button, input {
+
+    border-radius: 4px;
+ 
+}
+
+/* Headline container green one ----> */
+
+section >  .container-green {
+
+    display: flex;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background-color: rgb(154,205,50);
+
+    padding-bottom: 40px;
+
+}
+ 
+/* Text styling */
+
+section .container-green h1 {
+
+    font-size: 34px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: rgb(173,255,47);
+
+    font-weight: lighter;
+
+}
+ 
+section .container-green p {
+
+    font-size: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: rgb(173,255,47);
+
+}
+ 
+/* Button style/settings */
+
+section .container-green button {
+
+    background-color:rgb(51,122,183) ;
+
+    border-style: none;
+
+    border-radius: 2px;
+
+    font-size: 14px;
+
+    color: white;
+
+    padding: 3px 6px;
+
+    font-size: 10px;
+
+}
+ 
+/* green box /p margins settings */
+
+section .container-green h1 {
+
+    margin-bottom: 0;
+
+}
+ 

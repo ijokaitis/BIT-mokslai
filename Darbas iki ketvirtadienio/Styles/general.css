@@ -1,0 +1,45 @@
+@font-face {
+            font-family: "mano sriftas medium";
+            src: url("../assets/fonts/CerebriSansPro-Bold.ttf") 
+            format("truetype");
+        }
+@font-face {
+            font-family: "mano sriftas bold";
+            src: url("../assets/fonts/CerebriSansPro-Medium.ttf")
+            format("truetype");
+        }
+@font-face {
+            font-family: "mano sriftas semibold";
+            src: url("../assets/fonts/CerebriSansPro-SemiBold.ttf")
+            format("truetype");
+        }
+        background-image: url("assets/images/hero-gb.png");
+body {
+font-family: "Mandali", sans-serif;
+font-size: 16px;
+color: #343a40;
+margin: 54px;
+
+
+}
+
+
+
+h1{
+    display: block;
+    height: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "mano sfiftas medium"
+    color: #343A40
+}
+button{
+    cursor:pointer;
+}    
+

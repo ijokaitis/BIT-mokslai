@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.underline {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+.invoice-header div {
+
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px; /* Galima reguliuoti tarpą nuo teksto iki pabraukimo */
+}
+.underline-text {
+    text-decoration: underline;
+}
+
+
+.invoice-header, .invoice-footer {
+    color: blue;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.invoice-header div, .invoice-footer div {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.invoice-header div:last-child, .invoice-footer div:last-child {
+    color: aqua;
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.right-align {
+    text-align: right;
+}
